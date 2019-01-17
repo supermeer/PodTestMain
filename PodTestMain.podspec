@@ -31,7 +31,7 @@ s.ios.deployment_target = '10'
 # '*'表示匹配所有文件
 # '*.{h,m}' 表示匹配所有以.h和.m结尾的文件
 # '**' 表示匹配所有子目录
-s.source_files = 'PodTestMain/Lib/*.{}'
+s.source_files = 'PodTestMain/Lib/*.{h,m}'
 
 # s.resource_bundles = {
 #   'TestLib' => ['TestLib/Assets/*.png']
